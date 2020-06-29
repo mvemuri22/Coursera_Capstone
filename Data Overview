@@ -1,0 +1,4 @@
+Data:
+
+To answer this research question I will be using foursquare API data to get data on neighborhoods similar to that used in Segmenting and Clustering lab from week 3. 
+Then I will merge this with data from nychealth that provides the number of cases and deaths sorted by neighborhood. This data can be found at this link: https://github.com/nychealth/coronavirus-data/blob/master/data-by-modzcta.csv

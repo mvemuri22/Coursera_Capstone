@@ -1,4 +1,6 @@
 Data:
 
 To answer this research question I will be using foursquare API data to get data on neighborhoods similar to that used in Segmenting and Clustering lab from week 3. 
-Then I will merge this with data from nychealth that provides the number of cases and deaths sorted by neighborhood. This data can be found at this link: https://github.com/nychealth/coronavirus-data/blob/master/data-by-modzcta.csv
+Then I will merge this with data from nychealth that provides the number of cases and deaths sorted by neighborhood. 
+After doing this I will calculate the distance to the nearest hospital for each neighborhood by using foursquare API data and measure the relationship between the death rate and distance to nearest hospital.
+The dataset can be found at this link: https://github.com/nychealth/coronavirus-data/blob/master/data-by-modzcta.csv

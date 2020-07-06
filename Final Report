@@ -7,4 +7,37 @@ in death rates in those neighborhoods that are further from a hospital and if th
 locations. By visualizing the relationship through a chloropeth map and clustering groups by income as well we will get a thorough overview of some of the factors leading to Covid-19
 deaths.
 
+Data:
 
+To answer this research question I will be using foursquare API data to get data on neighborhoods similar to that used in Segmenting and Clustering lab from week 3. 
+Then I will merge this with data from nychealth that provides the number of cases and deaths sorted by neighborhood. 
+After doing this I will calculate the distance to the nearest hospital for each neighborhood by using foursquare API data and measure the relationship between the death rate and distance to nearest hospital.
+The dataset can be found at this link: https://github.com/nychealth/coronavirus-data/blob/master/data-by-modzcta.csv
+
+Methodology:
+
+During the developmental stages of the code I decided to visualize the data using a variety of choropleth maps. In order to do so I cleaned data from the nychealth database
+and used a geojson file sorted by ZCTA to create the polygons on the map. Then exploring the data further it became clear that the case rate, death rate, and testing statistics
+would be most appropriate for comparison across regions. I then used seaborn regression plots to display relationships and determine the strenghts of many of the relationships.
+In the future I could use machine learning to cluster these neighborhoods by some of the covid statistics along with distance to hospitals.
+
+Results:
+
+The results of the study show that there does seem to be a strong relationship between distance and case rate but the relationship with death rate is not as strong. I found this 
+to be surprising as I hypothesized that a higher distance would lead to a larger death rate since it may make it more difficult to get the requisite care. In addition, we say that
+testing per capita was nearly the same across all neighborhoods which confirms the efforts New York City has made to test a large number of people and set up many centers outside
+of just hospitals.
+
+Discussion:
+
+Based on the results I would recommend to New York City that they focus more attention on building health care facilities in Brooklyn because the research showed that there aren't as
+many hospitals in the area and as a result it has the highest death rate amongst the boroughs. At the same time we can conclude that the city does not need to over build hospitals
+in the area as a result of Covid-19 because the results showed that the relationship in death rate and hospital distance isn't very strong. Clustering of neighborhoods may show us 
+more in regards to what characteritics high death rate neighborhoods have.
+
+Conculsion:
+
+While we weren't able to make a large sweeping conclusion on the state of health care in New York City we were able to single out neighborhoods with high case and death rates
+using choropleth maps. Taking a closer look at these neighborhoods allowed us to see that many of these neighborhoods did not contain a hospital but in the larger view the
+relationship between hospital distance and death rates is not significant. In the future I hope to continue working on this project and incoproating more machine learning in 
+the form of k-means clustering. 

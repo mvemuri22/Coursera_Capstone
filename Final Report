@@ -1,1 +1,10 @@
+Introduction Section:
+
+We are currently in the midst of one of the largest global pandemics ever and at the same time the availability of data is higher than ever. So, in this project I will examine
+the relationship between distance to nearest hospital and Coronavirus death rate in New York City. Given the current climate in which the number of Covid-19 cases continue to
+increase I believe this question will give us insight into where we will see cases increase and how we can be better prepared for a future outbreak. I believe we will see a rise
+in death rates in those neighborhoods that are further from a hospital and if this is the case the solution may be to build more hospitals even if they are smaller clinic-type 
+locations. By visualizing the relationship through a chloropeth map and clustering groups by income as well we will get a thorough overview of some of the factors leading to Covid-19
+deaths.
+
 
